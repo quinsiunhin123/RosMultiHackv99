@@ -10,5 +10,6 @@ namespace Whynot
         public static int Render = 0x1E82B28;
         public static int SceneContext = 0x1CDC4D0;
         public static int nickname = 380;
+        public static int ViewMatrix = 0x1CDC4D0;
     }
 }
