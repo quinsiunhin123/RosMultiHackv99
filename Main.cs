@@ -563,7 +563,7 @@ namespace Whynot
             }
             if (Main.GetAsyncKeyState(Keys.LMenu))
             {
-                aimbot = !aimbot;
+                aimbot = false;
             }
             if (Main.GetAsyncKeyState(Keys.Delete))
             {
