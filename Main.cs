@@ -25,7 +25,7 @@ namespace Whynot
         public static Pen greenPen = new Pen(Color.Green, 2);
         public static Pen Dpen = new Pen((Brush)new SolidBrush(colour.newco));
         public static bool lockaim;
-        public static bool aimbot = true;
+        public static bool aimbot = false;
         public static int plus = 5;
         public static int jarak = 150;
         Pen blackPen = new Pen(Color.Black, 3);
@@ -434,14 +434,14 @@ namespace Whynot
 
                 Settings.PlayerESP = true;
                 Settings.ESP = true;
-                Settings.PlayerHealth = true;
+                Settings.PlayerHealth = false;
                 Settings.PlayerDistance = true;
-                Settings.ItemESP = true;
-                Settings.ItemDistance = true;
-                Settings.BodyESP = true;
-                Settings.BodyDistance = true;
+                Settings.ItemESP = false;
+                Settings.ItemDistance = false;
+                Settings.BodyESP = false;
+                Settings.BodyDistance = false;
                 Settings.VehicleESP = true;
-                Settings.VehicleDistance = true;
+                Settings.VehicleDistance = false;
                 Thread.Sleep(100);
 
             }
